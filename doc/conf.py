@@ -45,9 +45,6 @@ extensions = [
     'sphinx_design',  # For layout components
     'myst_nb',
     'sphinx_contributors'
-    # 'sphinxcontrib.apidoc'
-    # 'sphinx_gallery.gen_gallery',    
-    # 'myst_sphinx_gallery',
 ]
 
 
@@ -78,19 +75,15 @@ html_theme_options = {
     "show_prev_next": True,
     "header_links_before_dropdown": 1,
     "navigation_depth": 3,
-
+    "navbar_start": [],
+    "navbar_center": ["navbar-logo"],
+    "navbar_end": [],
+    "navbar_persistent": [],
 }
 html_context = {
     "default_mode": "light",
 }
-html_sidebars = {
-    # "index": ["sidebar-nav-bs.html"],
-    # # "**": ["sidebar-nav-bs.html"],
-    # "secondary_sidebar_items": {
-    #     "**": ["page-toc", "sourcelink"],
-    #     "index": ["page-toc"],
-    # }
-}
+
 
 
 # # Path for static files (custom stylesheets or JavaScript)
