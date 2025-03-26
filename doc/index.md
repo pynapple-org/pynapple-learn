@@ -1,3 +1,15 @@
+```{eval-rst}
+:html_theme.sidebar_secondary.remove:
+```
+
+```{toctree}
+:maxdepth: 2
+:hidden:
+
+pages/index
+```
+
+
 pynapple-learn : interactive learning of pynapple
 =================================================
 
@@ -9,3 +21,4 @@ programming interface by typing commands.
 <div class="d-flex justify-content-center">
     <a href="page1.html" class="big-button">Get started</a>
 </div>
+

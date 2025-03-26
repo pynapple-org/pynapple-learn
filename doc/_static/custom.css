@@ -34,12 +34,3 @@ a.big-button:hover {
     background-color: #0056b3;
 }
 
-a.prev-page::before {
-    content: "← ";
-    font-size: 18px;
-}
-
-a.next-page::after {
-    content: " →";
-    font-size: 18px;
-}

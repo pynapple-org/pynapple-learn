@@ -52,12 +52,8 @@ extensions = [
 
 
 templates_path = ['_templates']
-
-
 # The Root document
 root_doc = "index"
-
-
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
@@ -80,26 +76,27 @@ html_favicon = "_static/Icon/Pynapple_final_icon.png"
 html_theme_options = {
     "secondary_sidebar_items": [],
     "show_prev_next": True,
-    "header_links_before_dropdown": 5,
-    "prev_next_buttons_location": "bottom"
-}
+    "header_links_before_dropdown": 1,
+    "navigation_depth": 3,
 
+}
 html_context = {
     "default_mode": "light",
 }
-
 html_sidebars = {
-    "index": [],
-    # "**": ["search-field.html", "sidebar-nav-bs.html"],
+    # "index": ["sidebar-nav-bs.html"],
+    # # "**": ["sidebar-nav-bs.html"],
+    # "secondary_sidebar_items": {
+    #     "**": ["page-toc", "sourcelink"],
+    #     "index": ["page-toc"],
+    # }
 }
+
 
 # # Path for static files (custom stylesheets or JavaScript)
 html_static_path = ['_static']
 html_css_files = ['custom.css']
 
-# Copybutton settings (to hide prompt)
-copybutton_prompt_text = r">>> |\$ |# "
-copybutton_prompt_is_regexp = True
 
 # Enable markdown and notebook support
 myst_enable_extensions = ["colon_fence"]  # For improved markdown 
