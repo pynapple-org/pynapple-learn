@@ -22,6 +22,9 @@
       const output = document.getElementById("output");
       const code = document.getElementById("code");
 
+      function addToOutput(s) {
+        output.value += ">>>" + code.value + "\n" + s + "\n";
+      }
 
       function addToOutput(s) {
         output.value += ">>>" + code.value + "\n" + s + "\n";
