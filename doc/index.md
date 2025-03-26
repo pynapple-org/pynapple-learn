@@ -19,6 +19,6 @@ The goal of this website is to learn **in 5 min** the pynapple application
 programming interface by typing commands.
 
 <div class="d-flex justify-content-center">
-    <a href="page1.html" class="big-button">Get started</a>
+    <a href="pages/index.html" class="big-button">Get started</a>
 </div>
 
