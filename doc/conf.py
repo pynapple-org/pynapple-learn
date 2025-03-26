@@ -84,7 +84,9 @@ html_context = {
     "default_mode": "light",
 }
 
-
+html_js_files = [
+    "custom.js",  # Ensure this matches the filename and location
+]
 
 # # Path for static files (custom stylesheets or JavaScript)
 html_static_path = ['_static']
