@@ -50,8 +50,8 @@
       async function evaluatePython() {
         let pyodide = await pyodideReadyPromise;
         try {
-          let output = pyodide.runPython(code.value);
-          addToOutput(output);
+          let out = pyodide.runPython(code.value);
+          addToOutput(out);
         } catch (err) {
           addToOutput(err);
         }
