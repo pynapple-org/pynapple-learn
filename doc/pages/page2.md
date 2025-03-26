@@ -7,6 +7,7 @@ The `Tsd` object represent one-dimensional time series. It needs two arguments :
 
 - `t` : the timestamps
 - `d` : the data
+- Other options
 
 **Question** : Can you instantiate a `Tsd` object called `tsd`. Note : every pynapple
 objects are at the root of the namespace.
