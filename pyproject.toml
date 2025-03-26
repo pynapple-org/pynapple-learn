@@ -1,0 +1,52 @@
+[build-system]
+requires      = ["setuptools>=64", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pynapple-learn"
+version = "0.0.1"
+description = "Interactive notebook to learn pynapple"
+readme = "README.md"
+authors = [
+    { name = "Guillaume Viejo"},
+    { name = "Edoardo Balzani"},
+    { name = "Sarah Jo Venditto"}
+]
+license = { file = "LICENSE" }
+classifiers = [
+        "Development Status :: 3 - Alpha",
+        "Intended Audience :: Science/Research",
+        "License :: OSI Approved :: MIT License",
+        "Natural Language :: English",
+        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
+]
+keywords = ["neuroscience"]
+dependencies = [
+    "pandas>1.0.3",
+    "numpy>=1.17.4",
+    "scipy>=1.3.2",
+    "matplotlib",
+    "zarr",
+    "seaborn",
+    "tqdm",
+    "numpydoc",
+    "sphinx",
+    "pydata-sphinx-theme",
+    "sphinx-autodoc-typehints",
+    "sphinx-copybutton",
+    "sphinx-design",
+    "sphinx-issues",
+    "sphinxcontrib-apidoc",
+    "myst-parser",
+    "myst-nb",
+    "dandi",
+    "sphinx-autobuild",
+    "sphinx-contributors",
+    "scikit-learn",
+    # "sphinx-exec-code"
+]
+requires-python = ">=3.8"
+
