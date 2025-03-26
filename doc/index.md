@@ -1,6 +1,11 @@
+pynapple-learn : interactive learning of pynapple
+=================================================
 
-Welcome to pynapple-learn, an interactive program to learn how to use pynapple.
+Welcome to pynapple-learn, an interactive online program to learn how to use pynapple.
 
-<iframe 
-src="https://pynapple-org.github.io/pynapple-repl/repl/index.html?kernel=python" width="100%" height="500px">
-</iframe>
+The goal of this website is to learn **in 5 min** the pynapple application
+programming interface by typing commands.
+
+<div class="d-flex justify-content-center">
+    <a href="page1.html" class="big-button">Get started</a>
+</div>

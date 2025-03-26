@@ -64,19 +64,6 @@ root_doc = "index"
 exclude_patterns = ['_build', 'docstrings', 'nextgen', 'Thumbs.db', '.DS_Store']
 
 
-# Generate the API documentation when building
-# autosummary_generate = True
-# numpydoc_show_class_members = True
-# autodoc_default_options = {
-#     'members': True,
-#     'inherited-members': True,
-#     'show-inheritance': True,
-#     }
-
-# apidoc_module_dir = '../pynapple'
-# apidoc_output_dir = 'reference'
-# apidoc_excluded_paths = ['tests']
-# apidoc_separate_modules = True
 
 
 # ----------------------------------------------------------------------------
@@ -85,28 +72,16 @@ exclude_patterns = ['_build', 'docstrings', 'nextgen', 'Thumbs.db', '.DS_Store']
 
 html_theme = 'pydata_sphinx_theme'
 
-# html_logo = "_static/Logo/Pynapple_final_logo.png"
-# html_favicon = "_static/Icon/Pynapple_final_icon.png"
+html_logo = "_static/Logo/Pynapple_final_logo.png"
+html_favicon = "_static/Icon/Pynapple_final_icon.png"
 
 
 # Additional theme options
 html_theme_options = {
-    "icon_links": [
-        {
-            "name": "GitHub",
-            "url": "https://github.com/pynapple-org/pynapple",
-            "icon": "fab fa-github",
-            "type": "fontawesome",
-        },
-        {
-            "name": "Twitter",
-            "url": "https://twitter.com/thepynapple",
-            "icon": "fab fa-twitter",
-            "type": "fontawesome",
-        },
-    ],
+    "secondary_sidebar_items": [],
     "show_prev_next": True,
     "header_links_before_dropdown": 5,
+    "prev_next_buttons_location": "bottom"
 }
 
 html_context = {
@@ -115,7 +90,7 @@ html_context = {
 
 html_sidebars = {
     "index": [],
-    "**": ["search-field.html", "sidebar-nav-bs.html"],
+    # "**": ["search-field.html", "sidebar-nav-bs.html"],
 }
 
 # # Path for static files (custom stylesheets or JavaScript)
@@ -129,18 +104,6 @@ copybutton_prompt_is_regexp = True
 # Enable markdown and notebook support
 myst_enable_extensions = ["colon_fence"]  # For improved markdown 
 
-# # ----------------------------------------------------------------------------
-# # -- Autodoc and Napoleon Options -------------------------------------------------
-# autodoc_default_options = {
-#     'members': True,
-#     'undoc-members': True,
-#     'show-inheritance': True,
-# }
-# napoleon_numpy_docstring = True
-
-
-
-# nitpicky = True
 #
 nb_execution_timeout = 60 * 15  # Set timeout in seconds (e.g., 15 minutes)
 
